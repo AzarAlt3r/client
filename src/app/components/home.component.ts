@@ -3,7 +3,7 @@ import { Router, ActivatedRoute, Params } from '@angular/router';
 
 
 @Component({
-    selector: 'artist-list',
+    selector: 'home',
     templateUrl: '../views/home.html',
 })
 
@@ -18,7 +18,7 @@ export class HomeComponent implements OnInit{
     }
 
     ngOnInit(){
-        console.log('artist-List.component.ts cargado');
+        console.log('home.component.ts cargado');
 
         //conseguir el listado de artistas
     }

@@ -1,4 +1,3 @@
-import { componentModuleUrl } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute, Params } from '@angular/router';
 
@@ -27,7 +26,7 @@ export class ArtistListComponent implements OnInit{
     ){
         this.titulo = 'Artistas';
         this.identity = this._userService.getIdentity();
-        this.identity = this._userService.getToken();
+        this.token = this._userService.getToken();
         this.url = GLOBAL.url;
     }
 

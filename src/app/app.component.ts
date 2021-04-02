@@ -40,7 +40,7 @@ export class AppComponent {
     localStorage.clear();
     this.identity = null;
     this.token=null;
-    this._router.navigate(['/'])
+    this._router.navigate(['/']);
   }
   public onSubmit() {
     //conseguir los datos del usuario identificado
